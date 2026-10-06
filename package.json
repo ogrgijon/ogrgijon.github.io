@@ -1,0 +1,23 @@
+{
+  "name": "ogrgijon.github.io",
+  "version": "1.0.0",
+  "description": "OGRGijón Developer Website",
+  "scripts": {
+    "build": "tsx src/build.ts",
+    "typecheck": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost:26831/ogrgijon/ogrgijon.github.io"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "marked": "^18.1.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "type": "module"
+}
