@@ -5,6 +5,8 @@ description: "Ingeniera química y mecánica industrial, profesora de matemátic
 permalink: /penelope-blanco-es/
 lang: es
 translation_url: /penelope-blanco/
+menu_title: Penélope
+menu_order: 3
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/ogrgijon-profile.css' | relative_url }}">

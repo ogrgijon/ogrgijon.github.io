@@ -7,6 +7,8 @@ description: "In Greek, meraki means putting your soul, creativity and care into
 permalink: /about/
 lang: en
 translation_url: /es/about/
+menu_title: About
+menu_order: 1
 about_page: true
 ---
 
@@ -84,7 +86,7 @@ We are not trying to stop globalisation, but to help ensure that diversity is no
 
 ### From knowledge to collaboration
 
-**Oscar González**, a developer, and **Penélope Blanco**, an engineer, met at the University of Oviedo while taking part in non-profit research projects. They shared a curiosity about how knowledge could travel beyond academia and become something practical, tangible and open to others.
+[Oscar González](/oscar-gijon/), a developer, and [Penélope Blanco](/penelope-blanco/), an engineer, met at the University of Oviedo while taking part in non-profit research projects. They shared a curiosity about how knowledge could travel beyond academia and become something practical, tangible and open to others.
 
 Their backgrounds offered distinct ways of approaching a challenge. Oscar brought a developer's instinct for what technology can make possible; Penélope, an engineer's rigour and a clear view of how solutions can be designed and made viable. Together, they found a natural way to move between the big picture and the finer details — and from an initial idea towards something real.
 

@@ -5,6 +5,8 @@ description: ""
 permalink: /oscar-gijon/
 lang: en
 translation_url: /oscar-gijon-es/
+menu_title: Oscar
+menu_order: 2
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/ogrgijon-profile.css' | relative_url }}">

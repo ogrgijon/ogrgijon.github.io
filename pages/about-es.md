@@ -7,6 +7,8 @@ description: "En griego, meraki significa poner el alma, la creatividad y el car
 permalink: /es/about/
 lang: es
 translation_url: /about/
+menu_title: Acerca de
+menu_order: 1
 about_page: true
 ---
 
@@ -84,7 +86,7 @@ No queremos frenar la globalización, sino contribuir a que la diversidad no se 
 
 ### Del conocimiento a la colaboración
 
-**Oscar González**, desarrollador, y **Penélope Blanco**, ingeniera, se conocieron en la Universidad de Oviedo mientras participaban en proyectos de investigación sin ánimo de lucro. Compartían la curiosidad por explorar cómo el conocimiento podía trascender el ámbito académico y convertirse en algo práctico, tangible y abierto a los demás.
+[Oscar González](/oscar-gijon-es/), desarrollador, y [Penélope Blanco](/penelope-blanco-es/), ingeniera, se conocieron en la Universidad de Oviedo mientras participaban en proyectos de investigación sin ánimo de lucro. Compartían la curiosidad por explorar cómo el conocimiento podía trascender el ámbito académico y convertirse en algo práctico, tangible y abierto a los demás.
 
 Sus trayectorias aportaban distintas formas de abordar los retos. Oscar se acercaba a ellos desde el desarrollo y las posibilidades de la tecnología; Penélope, desde el rigor de la ingeniería y una mirada clara sobre cómo diseñar soluciones viables. Juntos encontraron una manera natural de combinar visión y detalle, y de avanzar desde la idea hasta su realización.
 

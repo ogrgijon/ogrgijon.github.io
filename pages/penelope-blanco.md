@@ -5,6 +5,8 @@ description: "Industrial chemical and mechanical engineer, mathematics teacher a
 permalink: /penelope-blanco/
 lang: en
 translation_url: /penelope-blanco-es/
+menu_title: Penélope
+menu_order: 3
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/ogrgijon-profile.css' | relative_url }}">
