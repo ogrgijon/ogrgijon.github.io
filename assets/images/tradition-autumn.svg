@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Hojas y luna de otoño</title>
+  <desc id="desc">Ilustración editorial de ramas otoñales y una luna creciente sobre un paisaje oscuro.</desc>
+  <rect width="1200" height="560" fill="#e6e0d5"/>
+  <circle cx="900" cy="150" r="76" fill="#bd573a" opacity=".8"/>
+  <circle cx="932" cy="126" r="70" fill="#e6e0d5"/>
+  <path d="M0 390q190-115 385-5t390-4 425 8v171H0Z" fill="#a9b3a1"/>
+  <path d="M0 450q220-90 430 0t400 0 370 0v110H0Z" fill="#52695d"/>
+  <g fill="none" stroke="#263532" stroke-width="4" stroke-linecap="round">
+    <path d="M280 440q75-120 82-285m-27 142q-80-30-119-86m124 55q72-57 121-53m-112-40q-52-65-53-104"/>
+  </g>
+  <g fill="#bd573a" opacity=".88">
+    <path d="M203 205q-40-54-84-30 7 52 84 30Zm134 48q46-58 95-35-12 51-95 35Zm-18-137q-39-49-80-27 7 48 80 27Z"/>
+  </g>
+  <g fill="#c5a57a">
+    <circle cx="570" cy="330" r="4"/><circle cx="650" cy="295" r="3"/><circle cx="720" cy="350" r="4"/>
+  </g>
+</svg>

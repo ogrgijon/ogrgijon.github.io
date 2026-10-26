@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">A connected ecosystem</title>
+  <desc id="desc">A calm, abstract landscape showing the relationship between communities and the natural environment.</desc>
+  <rect width="1200" height="560" fill="#e6e0d5"/>
+  <circle cx="920" cy="135" r="66" fill="#bd573a" opacity=".85"/>
+  <path d="M0 395q180-150 360 0t360 0 480 0v165H0Z" fill="#a9b3a1"/>
+  <path d="M0 455q210-125 420 0t420 0 360 0v105H0Z" fill="#52695d"/>
+  <g fill="none" stroke="#263532" stroke-width="3" stroke-linecap="round">
+    <path d="M230 390V220m0 75-65-60m65 95 72-73m-72-4 56-70"/>
+    <path d="M230 250q-46-47-78-31 11 39 78 51m0 48q55-60 96-48-18 45-96 61m-2-91q4-57 54-74 10 48-54 89"/>
+    <path d="M805 406V285m0 59-48-43m48 68 55-58m-55-10 40-54"/>
+    <path d="M805 307q-37-38-65-25 10 32 65 42m0 39q45-49 78-39-15 37-78 50m-1-74q4-47 44-61 8 39-44 73"/>
+  </g>
+  <g fill="#f7f6f2" stroke="#263532" stroke-width="2">
+    <circle cx="490" cy="324" r="15"/><circle cx="610" cy="390" r="15"/>
+    <circle cx="715" cy="302" r="15"/><circle cx="1015" cy="380" r="15"/>
+  </g>
+  <g fill="none" stroke="#f7f6f2" stroke-opacity=".8" stroke-width="2">
+    <path d="m490 324 120 66 105-88 210 78"/>
+    <circle cx="610" cy="350" r="185"/>
+  </g>
+</svg>

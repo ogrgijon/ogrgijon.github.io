@@ -1,0 +1,27 @@
+---
+layout: page
+title: El anuario
+kicker: IDEAS, NOTAS Y PERSPECTIVAS
+description: "Reflexiones sobre tecnología, cultura, creatividad y futuro."
+lang: es
+translation_url: /journal/
+permalink: /es/journal/
+---
+{% assign stories = site.posts | where: "lang", "es" | sort: "date" | reverse %}
+{% assign archive_years = stories | group_by_exp: "post", "post.date | date: '%Y'" %}
+<div class="archive-year-picker">
+  <div class="archive-year-picker__current">
+    <p class="eyebrow">El año</p>
+    <p class="archive-year-picker__number" data-current-year aria-live="polite">{{ archive_years.first.name }}</p>
+  </div>
+  <div class="archive-year-picker__controls">
+    <p class="archive-year-picker__label">Elige un año para explorar el archivo</p>
+    <nav class="archive-years" aria-label="Explorar artículos por año">
+      {% for year in archive_years %}<button type="button" data-archive-year="{{ year.name }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">{{ year.name }}</button>{% endfor %}
+    </nav>
+  </div>
+</div>
+<div class="story-grid story-grid--archive">
+  {% for post in stories %}{% include story-card.html post=post %}{% endfor %}
+</div>
+<script src="{{ '/assets/js/archive-years.js' | relative_url }}" defer></script>

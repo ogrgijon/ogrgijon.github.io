@@ -1,0 +1,10 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <a class="wordmark wordmark--footer" href="{{ '/' | relative_url }}"><img class="wordmark-icon" src="{{ '/logo.svg' | relative_url }}" alt=""> <span class="wordmark-text">THE <span>MEREKAI</span><br>PROJECT<span class="wordmark-dot">.</span></span></a>
+    <p>Ahora que sabemos cómo, hagámoslo posible. <br> Now that we know how, let's make it happen.</p>
+    <div class="footer-links"><a href="{{ locale_root | append: '/about/' | relative_url }}">{% if page.lang == 'es' %}Acerca de{% else %}About{% endif %}</a><a href="{{ '/feed.xml' | relative_url }}">RSS</a><a href="mailto:info@ogrgijon.es">{% if page.lang == 'es' %}Contacto ↗{% else %}Get in touch ↗{% endif %}</a><a href="https://linkedin.com/ogrgijon" rel="me">LinkedIn ↗</a></div>
+    {% assign localized_pages = site.pages | where: "lang", page.lang | where_exp: "item", "item.path contains 'pages/'" | sort: "title" %}
+    {% if localized_pages.size > 0 %}<nav class="footer-page-menu" aria-label="{% if page.lang == 'es' %}Páginas{% else %}Pages{% endif %}">{% for unique_page in localized_pages %}<a href="{{ unique_page.url | relative_url }}">{{ unique_page.title | default: unique_page.name }}</a>{% endfor %}</nav>{% endif %}
+    <small>© {{ 'now' | date: "%Y" }} The Merekai Project</small>
+  </div>
+</footer>

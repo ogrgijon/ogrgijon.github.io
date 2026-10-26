@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Bosque de invierno</title>
+  <desc id="desc">Ilustración editorial de montañas y árboles en tonos de niebla, con un sol terracota.</desc>
+  <rect width="1200" height="560" fill="#e6e0d5"/>
+  <circle cx="920" cy="150" r="68" fill="#bd573a" opacity=".82"/>
+  <path d="M0 340 190 180l160 170 205-210 230 224 145-165 270 187v174H0Z" fill="#a9b3a1"/>
+  <path d="M0 415q170-95 330 0t340 0 320 0 210 0v145H0Z" fill="#52695d"/>
+  <g fill="none" stroke="#263532" stroke-width="4" stroke-linecap="round">
+    <path d="M220 440V260m0 0-62 80m62-80 62 80m-62-31-45 60m45-60 48 60"/>
+    <path d="M790 440V235m0 0-73 93m73-93 73 93m-73-37-53 68m53-68 58 68"/>
+    <path d="M995 440V290m0 0-53 68m53-68 55 68m-55-25-40 52m40-52 43 52"/>
+  </g>
+  <path d="M0 475q230-48 460 0t460 0 280 0" fill="none" stroke="#f7f6f2" stroke-width="3" opacity=".8"/>
+</svg>

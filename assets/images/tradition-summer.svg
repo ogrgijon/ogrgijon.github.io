@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Sol de verano sobre el agua</title>
+  <desc id="desc">Ilustración editorial con un sol terracota, montañas verdes y líneas de agua al atardecer.</desc>
+  <rect width="1200" height="560" fill="#e6e0d5"/>
+  <circle cx="600" cy="205" r="120" fill="#bd573a" opacity=".86"/>
+  <g fill="none" stroke="#263532" stroke-width="2" opacity=".72">
+    <ellipse cx="600" cy="245" rx="465" ry="180" transform="rotate(-12 600 245)"/>
+    <ellipse cx="600" cy="245" rx="350" ry="245" transform="rotate(18 600 245)"/>
+  </g>
+  <path d="M0 370 205 215l185 155 190-175 205 180 175-140 240 145v180H0Z" fill="#a9b3a1"/>
+  <path d="M0 420q190-52 380 0t380 0 440 0v140H0Z" fill="#52695d"/>
+  <g fill="none" stroke="#f7f6f2" stroke-width="3" opacity=".82">
+    <path d="M365 455h470m-405 28h340m-260 28h190"/>
+  </g>
+</svg>

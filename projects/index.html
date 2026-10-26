@@ -1,0 +1,19 @@
+---
+layout: page
+title: Projects
+kicker: FROM THOUGHT TO PRACTICE
+description: "A selection of ongoing experiments, independent work and collaborations."
+permalink: /projects/
+---
+<div class="project-list projects-index">
+{% assign github_projects = site.pages | where: "github_project", true | where: "lang", "en" | sort: "title" %}
+{% for project in github_projects %}
+  <article class="project-row">
+    <div class="project-row__brand{% unless project.project_logo %} project-row__brand--abstract{% endunless %}">
+      {% if project.project_logo %}<img src="{{ project.project_logo }}" alt="" loading="lazy">{% else %}<span class="project-row__art" aria-hidden="true"></span>{% endif %}
+    </div>
+    <div><p class="eyebrow">{{ project.language | default: "GITHUB PROJECT" }}</p><h2><a href="{{ project.url | relative_url }}">{{ project.title | escape }}</a></h2><p>{{ project.description }}</p></div>
+    <a class="project-arrow" href="{{ project.url | relative_url }}" aria-label="View {{ project.title | escape }}">↗</a>
+  </article>
+{% endfor %}
+</div>

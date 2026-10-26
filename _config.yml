@@ -1,0 +1,44 @@
+title: "The Merekai Project"
+description: "Ideas, projects and perspectives on technology, culture and the future."
+url: "https://ogrgijon.github.io"
+baseurl: ""
+lang: "en"
+timezone: "Europe/Madrid"
+markdown: kramdown
+permalink: /journal/:year/:month/:day/:title/
+future: false
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - scripts
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      lang: en
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: article
+      author: "The Merekai Project"
+      image: /assets/images/og-default.svg
+      lang: en
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: page
+      lang: en
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/

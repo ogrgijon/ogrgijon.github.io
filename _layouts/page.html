@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<div class="page-shell page-content{% if page.github_project %} project-detail{% endif %}{% if page.reading_room %} reading-room{% endif %}{% if page.tradition_page %} tradition-page{% endif %}{% if page.reading_article %} reading-article{% endif %}{% if page.about_page %} about-page{% endif %}">
+  <header class="page-header">
+    {% if page.kicker %}<p class="eyebrow">{{ page.kicker }}</p>{% endif %}
+    {% if page.about_page %}
+    <div class="about-page__brand">
+      <h1>{{ page.title | escape }}</h1>
+      {% if page.slogan %}<p class="about-page__slogan">{{ page.slogan | escape }}</p>{% endif %}
+    </div>
+    {% else %}
+    <h1>{{ page.title | escape }}</h1>
+    {% endif %}
+    {% if page.description %}<p class="lede">{{ page.description }}</p>{% endif %}
+  </header>
+  {% if page.tradition_article and page.image %}
+  <figure class="tradition-story__image">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}" loading="eager">
+  </figure>
+  {% endif %}
+  {% if page.github_project %}
+  <section class="project-showcase{% if page.project_gallery %} project-showcase--gallery{% endif %}" aria-label="{{ page.title | escape }} project visuals">
+    <div class="project-showcase__brand">
+      {% if page.project_logo %}
+      <img src="{{ page.project_logo }}" alt="{{ page.project_logo_alt | default: page.title | escape }}" loading="eager">
+      {% else %}
+      <span class="project-showcase__mark" aria-hidden="true">{{ page.project_mark | default: "OG" | escape }}</span>
+      {% endif %}
+      <div><span class="eyebrow">PROYECTO · {{ page.language | default: "DESARROLLO" | escape }}</span><span class="project-showcase__repo">{{ page.repository | default: "OGRGijón" | escape }}</span></div>
+    </div>
+    {% if page.project_visual %}
+    <figure class="project-showcase__visual">
+      <img src="{{ page.project_visual }}" alt="{{ page.project_visual_alt | default: page.title | escape }}" loading="eager">
+      {% if page.project_visual_caption %}<figcaption>{{ page.project_visual_caption | escape }}</figcaption>{% endif %}
+    </figure>
+    {% endif %}
+    {% if page.project_gallery %}
+    <div class="project-showcase__gallery">
+      {% for visual in page.project_gallery %}
+      <figure><img src="{{ visual.src }}" alt="{{ visual.alt | escape }}" loading="lazy"></figure>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </section>
+  {% endif %}
+  {% if page.reading_article %}<article class="reading-note">{% endif %}
+  {{ content }}
+  {% if page.reading_article %}</article>{% endif %}
+</div>

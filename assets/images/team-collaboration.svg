@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Ideas shared across disciplines</title>
+  <desc id="desc">Abstract illustration of people and connected ideas in a collaborative workspace.</desc>
+  <rect width="1200" height="560" fill="#e9e5db"/>
+  <path d="M0 430h1200" stroke="#151C1C" stroke-opacity=".22" stroke-width="2"/>
+  <circle cx="600" cy="225" r="118" fill="#bd573a" opacity=".9"/>
+  <g fill="none" stroke="#263532" stroke-width="2">
+    <ellipse cx="600" cy="230" rx="470" ry="150" transform="rotate(-12 600 230)"/>
+    <ellipse cx="600" cy="230" rx="350" ry="220" transform="rotate(25 600 230)"/>
+    <path d="M215 400 410 285l180 100 205-160 190 148"/>
+  </g>
+  <g fill="#f7f6f2" stroke="#263532" stroke-width="2">
+    <circle cx="215" cy="400" r="24"/><circle cx="410" cy="285" r="24"/>
+    <circle cx="590" cy="385" r="24"/><circle cx="795" cy="225" r="24"/>
+    <circle cx="985" cy="373" r="24"/>
+  </g>
+  <g fill="#263532">
+    <circle cx="214" cy="485" r="30"/><path d="M155 560q7-59 59-59t59 59"/>
+    <circle cx="600" cy="485" r="30"/><path d="M541 560q7-59 59-59t59 59"/>
+    <circle cx="986" cy="485" r="30"/><path d="M927 560q7-59 59-59t59 59"/>
+  </g>
+</svg>

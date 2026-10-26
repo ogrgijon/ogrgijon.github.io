@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="article-shell">
+  <header class="article-header">
+    {% assign article_locale_root = '' %}{% if page.lang == 'es' %}{% assign article_locale_root = '/es' %}{% endif %}
+    <a class="back-link" href="{{ article_locale_root | append: '/journal/' | relative_url }}">{% if page.lang == 'es' %}← Volver al anuario{% else %}← Back to the journal{% endif %}</a>
+    {% assign article_year = page.date | date: "%Y" %}
+    {% assign archive_year_url = article_locale_root | append: '/journal/#year-' | append: article_year | relative_url %}
+    {% if page.lang == 'es' %}{% assign article_date = page.date | date: "%d/%m/%Y" %}{% else %}{% assign article_date = page.date | date: "%B %-d, %Y" %}{% endif %}
+    <p class="eyebrow">{% if page.category %}{{ page.category }}{% else %}{% if page.lang == 'es' %}NOTAS DE CAMPO{% else %}FIELD NOTES{% endif %}{% endif %} · {{ article_date }} · <a class="article-year" href="{{ archive_year_url }}">{{ article_year }}</a></p>
+    <h1>{{ page.title | escape }}</h1>
+    {% if page.subtitle %}<p class="lede">{{ page.subtitle }}</p>{% endif %}
+    <div class="article-byline">{% if page.lang == 'es' %}Por{% else %}By{% endif %} {{ page.author | default: site.title }} <span>·</span> {% assign words = content | number_of_words %}{{ words | divided_by: 220 | at_least: 1 }} {% if page.lang == 'es' %}min de lectura{% else %}min read{% endif %}</div>
+  </header>
+  {% if page.image %}<figure class="article-hero"><img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}"><figcaption>{{ page.image_caption | default: "" }}</figcaption></figure>{% endif %}
+  <div class="article-body">{{ content }}</div>
+  <footer class="article-end">
+    <p class="eyebrow">{% if page.lang == 'es' %}GRACIAS POR LEER{% else %}THANK YOU FOR READING{% endif %}</p>
+    <a class="text-link" href="{{ article_locale_root | append: '/journal/' | relative_url }}">{% if page.lang == 'es' %}Más del anuario ↗{% else %}More from the journal ↗{% endif %}</a>
+  </footer>
+</article>
