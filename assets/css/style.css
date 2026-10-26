@@ -117,13 +117,17 @@ h1, h2, h3, p { margin-top: 0; }
 .article-body ul, .article-body ol { padding-left: 1.4rem; }
 .article-end { max-width: 680px; margin: 4rem auto 0; padding-top: 2rem; border-top: 1px solid var(--line); }
 .article-end .text-link { margin-top: 0; }
-.article-share { max-width: 680px; margin: 2rem auto 0; }
-.article-share__link { display: inline-flex; align-items: center; gap: .75rem; padding: .8rem 1.1rem; border: 1px solid var(--line); background: #e8e5dc; color: var(--ink); font-size: .86rem; font-weight: 650; transition: background .2s ease, border-color .2s ease, color .2s ease; }
-.article-share__link:hover { border-color: var(--accent); background: var(--accent); color: #fff; }
-.article-share__link:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
-.article-share__icon { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
-.article-share__arrow { color: var(--accent); }
-.article-share__link:hover .article-share__arrow { color: inherit; }
+.article-share { display: flex; max-width: 680px; margin: 2.5rem auto 0; padding: 1.25rem 1.4rem; align-items: center; justify-content: space-between; gap: 1.5rem; border: 1px solid var(--line); background: #eeece5; }
+.article-share__prompt .eyebrow { margin-bottom: .3rem; }
+.article-share__prompt p:last-child { margin-bottom: 0; color: var(--muted); font-size: .84rem; }
+.article-share__link { display: inline-flex; flex: 0 0 auto; align-items: center; gap: .65rem; padding: .8rem 1rem; border: 1px solid #0a66c2; border-radius: 3px; background: #0a66c2; color: #fff; font-size: .86rem; font-weight: 700; transition: background .2s ease, border-color .2s ease; }
+.article-share__link:hover { border-color: #004182; background: #004182; color: #fff; }
+.article-share__link:focus-visible { outline: 2px solid var(--ink); outline-offset: 4px; }
+.article-share__icon { width: 1.1rem; height: 1.1rem; flex: 0 0 auto; }
+.article-share__arrow { color: inherit; }
+@media (max-width: 600px) {
+  .article-share { align-items: flex-start; flex-direction: column; gap: 1rem; padding: 1.1rem; }
+}
 .page-content > h2 { margin-top: 2.5rem; font-family: var(--serif); font-weight: 400; }
 .page-content > p, .page-content > ul { max-width: 700px; color: #4e5a56; }
 .about-page .page-header { max-width: 900px; margin-bottom: 3.5rem; }

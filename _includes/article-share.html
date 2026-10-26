@@ -1,0 +1,14 @@
+{% assign share_url = page.url | absolute_url | url_encode %}
+<div class="article-share">
+  <div class="article-share__prompt">
+    <p class="eyebrow">{% if page.lang == 'es' %}¿TE HA PARECIDO INTERESANTE?{% else %}FOUND THIS INTERESTING?{% endif %}</p>
+    <p>{% if page.lang == 'es' %}Compártelo con tu red profesional.{% else %}Share it with your professional network.{% endif %}</p>
+  </div>
+  <a class="article-share__link" href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url }}" target="_blank" rel="noopener noreferrer">
+    <svg class="article-share__icon" aria-hidden="true" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M5.2 8.3H2.1V22h3.1V8.3ZM3.7 2a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6ZM22 13.1c0-4.1-2.2-6-5.1-6a4.4 4.4 0 0 0-4 2.2V8.3H9.8V22h3.1v-6.8c0-1.8.3-3.6 2.6-3.6s2.3 2.1 2.3 3.7V22H21l1-8.9Z"/>
+    </svg>
+    <span>{% if page.lang == 'es' %}Compartir en LinkedIn{% else %}Share on LinkedIn{% endif %}</span>
+    <span class="article-share__arrow" aria-hidden="true">↗</span>
+  </a>
+</div>

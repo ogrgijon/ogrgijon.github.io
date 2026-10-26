@@ -24,6 +24,7 @@ defaults:
       type: "pages"
     values:
       lang: en
+      image: /assets/images/article-default.svg
   - scope:
       path: ""
       type: "posts"
@@ -38,6 +39,7 @@ defaults:
     values:
       layout: page
       lang: en
+      image: /assets/images/article-default.svg
 collections:
   projects:
     output: true
