@@ -15,6 +15,16 @@ layout: default
   </header>
   {% if page.image %}<figure class="article-hero"><img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}"><figcaption>{{ page.image_caption | default: "" }}</figcaption></figure>{% endif %}
   <div class="article-body">{{ content }}</div>
+  {% assign share_url = page.url | absolute_url | url_encode %}
+  <div class="article-share">
+    <a class="article-share__link" href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url }}" target="_blank" rel="noopener noreferrer">
+      <svg class="article-share__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none">
+        <path d="M12 15V3m0 0L7.5 7.5M12 3l4.5 4.5M5 12v7h14v-7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>{% if page.lang == 'es' %}Compartir este artículo en LinkedIn{% else %}Share this article on LinkedIn{% endif %}</span>
+      <span class="article-share__arrow" aria-hidden="true">↗</span>
+    </a>
+  </div>
   <footer class="article-end">
     <p class="eyebrow">{% if page.lang == 'es' %}GRACIAS POR LEER{% else %}THANK YOU FOR READING{% endif %}</p>
     <a class="text-link" href="{{ article_locale_root | append: '/journal/' | relative_url }}">{% if page.lang == 'es' %}Más del anuario ↗{% else %}More from the journal ↗{% endif %}</a>

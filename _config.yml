@@ -1,6 +1,6 @@
 title: "The Merekai Project"
 description: "Ideas, projects and perspectives on technology, culture and the future."
-url: "https://ogrgijon.github.io"
+url: "https://merekai.es"
 baseurl: ""
 lang: "en"
 timezone: "Europe/Madrid"
@@ -30,7 +30,7 @@ defaults:
     values:
       layout: article
       author: "The Merekai Project"
-      image: /assets/images/og-default.svg
+      image: /assets/images/article-default.svg
       lang: en
   - scope:
       path: ""

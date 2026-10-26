@@ -117,6 +117,13 @@ h1, h2, h3, p { margin-top: 0; }
 .article-body ul, .article-body ol { padding-left: 1.4rem; }
 .article-end { max-width: 680px; margin: 4rem auto 0; padding-top: 2rem; border-top: 1px solid var(--line); }
 .article-end .text-link { margin-top: 0; }
+.article-share { max-width: 680px; margin: 2rem auto 0; }
+.article-share__link { display: inline-flex; align-items: center; gap: .75rem; padding: .8rem 1.1rem; border: 1px solid var(--line); background: #e8e5dc; color: var(--ink); font-size: .86rem; font-weight: 650; transition: background .2s ease, border-color .2s ease, color .2s ease; }
+.article-share__link:hover { border-color: var(--accent); background: var(--accent); color: #fff; }
+.article-share__link:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.article-share__icon { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.article-share__arrow { color: var(--accent); }
+.article-share__link:hover .article-share__arrow { color: inherit; }
 .page-content > h2 { margin-top: 2.5rem; font-family: var(--serif); font-weight: 400; }
 .page-content > p, .page-content > ul { max-width: 700px; color: #4e5a56; }
 .about-page .page-header { max-width: 900px; margin-bottom: 3.5rem; }
