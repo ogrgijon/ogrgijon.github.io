@@ -13,11 +13,11 @@ menu_order: 2
 
 <div class="og-profile">
   <section class="og-hero">
-    <div class="og-kicker"><span>OGRGIJÓN</span><span>DEVELOPMENT · INNOVATION · DESIGN</span></div>
+    <div class="og-kicker"><span>OSCAR GIJÓN</span><span>DEVELOPMENT · INNOVATION · DESIGN</span></div>
     <p class="og-overline">Technology with purpose. Ideas in motion.</p>
-    <h1>Connecting ideas.<br><em>Creating impact.</em></h1>
+    <h1>Oscar Gijón<br><em>Development and digital innovation.</em></h1>
     <div class="og-hero-bottom">
-      <p>I am a developer and technology innovator. I combine software, data and digital design to turn complex needs into useful solutions, from the first idea to a working tool.</p>
+      <p>I’m Oscar Gijón, a developer and technology innovator. I combine software, data and digital design to turn complex needs into useful solutions, from the first idea to a working tool.</p>
       <a class="og-circle-link" href="#og-enfoque" aria-label="Discover my approach">↓</a>
     </div>
     <div class="og-visual" aria-label="Abstract visual of connected systems">
@@ -145,11 +145,7 @@ menu_order: 2
     </div>
   </section>
 
-  <section class="og-merekai-callout">
-    <div class="og-merekai-mark"><span>M</span><i>↗</i></div>
-    <div class="og-merekai-copy"><p class="og-label">PROYECTO PERSONAL · DESDE 2020</p><h2>Merekai es el espacio<br><em>donde las ideas se convierten en proyectos.</em></h2><p>Merekai es mi proyecto personal: una iniciativa propia desde la que exploro ideas, desarrollo soluciones y doy continuidad a proyectos tecnológicos. También reúne una parte de mi trabajo de código abierto, compartido para que otras personas puedan descubrirlo, utilizarlo o colaborar.</p><a class="og-merekai-link" href="https://github.com/search?q=Merekai&type=repositories" target="_blank" rel="noopener">Descubrir proyectos open source <span>↗</span></a><p class="og-merekai-note">El enlace abre una búsqueda pública de repositorios en GitHub relacionados con Merekai. Se puede sustituir por el perfil u organización oficial cuando se defina la URL canónica.</p></div>
-  </section>
   <section class="og-method" id="og-enfoque"><div class="og-section og-method-inner"><div class="og-index"><span>05</span> ENFOQUE</div><div class="og-method-content"><p class="og-label">DEL PROBLEMA AL PROTOTIPO</p><h2>Entender primero.<br><em>Diseñar con intención.</em></h2><div class="og-steps"><article><span>01</span><h3>Comprender</h3><p>Investigar el contexto y concretar qué necesita resolverse antes de elegir herramientas.</p></article><article><span>02</span><h3>Conectar</h3><p>Unir tecnología, datos y diseño para encontrar una solución coherente con el objetivo.</p></article><article><span>03</span><h3>Construir</h3><p>Probar, iterar y desarrollar algo útil, mantenible y preparado para crecer.</p></article></div></div></div></section>
 
-  <section class="og-end"><p class="og-label">NUEVOS RETOS PROFESIONALES</p><h2>¿Construimos<br><em>algo que importe?</em></h2><p>Estoy interesado en oportunidades donde aportar experiencia en desarrollo, innovación, datos y diseño digital. Si buscas un perfil transversal que conecte el problema con la solución, hablemos.</p>  <div class="og-actions"><a href="{{ '/assets/cv/oscar-gijon-resume.pdf' | relative_url }}" download>Download CV (PDF) ↓</a><a href="https://www.ogrgijon.es" target="_blank" rel="noopener">ogrgijon.es ↗</a><a href="https://es.linkedin.com/in/ogrgijon" target="_blank" rel="noopener">LinkedIn ↗</a><a href="mailto:info@ogrgijon.es">info@ogrgijon.es ↗</a></div></section>
+  <section class="og-end"><p class="og-label">NUEVOS RETOS PROFESIONALES</p><h2>¿Construimos<br><em>algo que importe?</em></h2><p>Estoy interesado en oportunidades donde aportar experiencia en desarrollo, innovación, datos y diseño digital. Si buscas un perfil transversal que conecte el problema con la solución, hablemos.</p>  <div class="og-actions"><a href="{{ '/assets/cv/oscar-gijon-cv.pdf' | relative_url }}" download>Download CV (PDF) ↓</a><a href="https://www.ogrgijon.es" target="_blank" rel="noopener">ogrgijon.es ↗</a><a href="https://es.linkedin.com/in/ogrgijon" target="_blank" rel="noopener">LinkedIn ↗</a><a href="mailto:info@ogrgijon.es">info@ogrgijon.es ↗</a></div></section>
 </div>

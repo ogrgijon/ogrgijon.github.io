@@ -265,6 +265,20 @@
   text-decoration-color: currentColor;
 }
 
+.project-detail .article-share__link {
+  border-color: #0a66c2;
+  background: #0a66c2;
+  color: #fff;
+  text-decoration: none;
+}
+
+.project-detail .article-share__link:hover {
+  border-color: #004182;
+  background: #004182;
+  color: #fff;
+  text-decoration: none;
+}
+
 .project-detail > p:last-child {
   max-width: 820px;
   margin: 3.5rem auto 0;

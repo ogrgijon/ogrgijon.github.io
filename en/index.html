@@ -1,19 +1,18 @@
 ---
 layout: home
 lang: en
-translation_url: /
+translation_url: /es/
 title: Home
-description: "Ideas, projects and perspectives for a world in motion."
+description: "A portfolio of technology projects, research and ideas built for a changing world."
 ---
 
-<section class="hero">
+<section class="hero home-intro">
   <div class="hero__copy">
     <p class="eyebrow">THE MEREKAI PROJECT · IDEAS INTO ACTION</p>
     <h1>Big questions.<br><em>Useful work.</em></h1>
     <p class="lede">An independent platform exploring technology, culture and the future — through ideas worth sharing and projects worth building.</p>
     <div class="hero__actions">
-      <a class="button button--dark" href="{{ '/projects/' | relative_url }}">Explore the projects <span aria-hidden="true">↗</span></a>
-      <a class="text-link" href="{{ '/journal/' | relative_url }}">Read the journal</a>
+      <a class="button button--dark" href="{{ '/journal/' | relative_url }}">Read the journal <span aria-hidden="true">↗</span></a>
     </div>
   </div>
   <div class="hero__visual" role="img" aria-label="Abstract editorial artwork representing connected ideas">
@@ -24,21 +23,34 @@ description: "Ideas, projects and perspectives for a world in motion."
   </div>
 </section>
 
+<section class="home-hero">
+  <div class="home-hero__image" role="img" aria-label="Gijón, Asturias, looking towards a society shaped by innovation and the future"></div>
+  <div class="home-hero__content">
+    <p class="eyebrow">THE MEREKAI PROJECT · ASTURIAS, SPAIN</p>
+    <h1>A society<br><em>in motion.</em></h1>
+    <p class="lede">Innovation helps us imagine what society can become — and turn a more capable, thoughtful future into something real.</p>
+    <div class="hero__actions">
+      <a class="button button--dark" href="{{ '/projects/' | relative_url }}">Explore the portfolio <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+  <span class="home-hero__caption">Gijón, Asturias</span>
+</section>
+
 <section class="mission-strip">
   <p class="eyebrow">THE IDEA BEHIND IT</p>
   <div class="mission-strip__content">
     <h2>Knowledge matters most<br>when it <em>moves something forward.</em></h2>
     <div>
-      <p>The Merekai Project brings together research, experiments and long-form thinking to make sense of a changing world — and explore what we can do about it.</p>
+      <p>The Merekai Project brings together research, practical experiments and thoughtful perspectives to explore what we can build next.</p>
       <a class="text-link" href="{{ '/about/' | relative_url }}">Discover our point of view ↗</a>
     </div>
   </div>
 </section>
 
-<section class="impact-section">
+<section class="impact-section home-impact">
   <div class="section-heading">
     <div><p class="eyebrow">THE WORK, IN PRACTICE</p><h2>From ideas to action</h2></div>
-    <p class="section-heading__note">A growing portfolio of questions explored, things made and lessons shared.</p>
+    <p class="section-heading__note">Three complementary ways to explore, build and share.</p>
   </div>
   <div class="impact-grid">
     <article class="impact-card impact-card--feature">
@@ -46,29 +58,40 @@ description: "Ideas, projects and perspectives for a world in motion."
       <div class="impact-symbol impact-symbol--orbit"><span></span></div>
       <h3>Research & perspectives</h3>
       <p>Make sense of emerging ideas, technologies and cultural shifts.</p>
-      <a href="{{ '/journal/' | relative_url }}" aria-label="Explore research and perspectives">Explore the journal ↗</a>
+      <a href="{{ '/journal/' | relative_url }}">Explore the journal ↗</a>
     </article>
     <article class="impact-card">
       <span class="impact-index">02 / BUILD</span>
       <div class="impact-symbol impact-symbol--blocks"><i></i><i></i><i></i></div>
       <h3>Projects & experiments</h3>
       <p>Turn curiosity into practical work, prototypes and collaborations.</p>
-      <a href="{{ '/projects/' | relative_url }}" aria-label="Explore projects and experiments">View projects ↗</a>
+      <a href="{{ '/projects/' | relative_url }}">View projects ↗</a>
     </article>
     <article class="impact-card">
       <span class="impact-index">03 / SHARE</span>
       <div class="impact-symbol impact-symbol--lines"><i></i><i></i><i></i><i></i></div>
       <h3>Tools & resources</h3>
-      <p>Collect useful frameworks, reading notes and lessons learned along the way.</p>
-      <a href="{{ '/reading/' | relative_url }}" aria-label="Explore tools and resources">Browse resources ↗</a>
+      <p>Collect useful frameworks, reading notes and lessons learned.</p>
+      <a href="{{ '/reading/' | relative_url }}">Browse resources ↗</a>
     </article>
   </div>
-  <p class="metrics-note">The project is growing. Impact figures will be added when there are real, verifiable results to share.</p>
 </section>
 
-<section class="section-block">
+<section class="home-landscape" aria-labelledby="home-landscape-title">
+  <img src="{{ '/assets/images/landscapes/verdicio_asturias.webp' | relative_url }}" alt="Green fields meeting the coast at Verdicio, Asturias" loading="lazy">
+  <div class="home-landscape__shade"></div>
+  <div class="home-landscape__content">
+    <p class="eyebrow">ROOTED IN THE LAND · ASTURIAS</p>
+    <h2 id="home-landscape-title">Living tradition.<br><em>A more sustainable future.</em></h2>
+    <p>Staying connected to the land means valuing its traditions and caring for the natural world we share.</p>
+    <a class="home-landscape__link" href="{{ '/tradition/' | relative_url }}">Explore Asturian tradition ↗</a>
+  </div>
+  <span class="home-landscape__caption">Verdicio, Asturias</span>
+</section>
+
+<section class="home-stories">
   <div class="section-heading">
-    <div><p class="eyebrow">IDEAS IN PROGRESS</p><h2>Latest stories</h2></div>
+    <div><p class="eyebrow">CURRENT THINKING</p><h2>Notes from the frontier</h2></div>
     <a class="text-link" href="{{ '/journal/' | relative_url }}">All stories ↗</a>
   </div>
   <div class="story-grid">
@@ -79,9 +102,22 @@ description: "Ideas, projects and perspectives for a world in motion."
   </div>
 </section>
 
+<section class="home-contact">
+  <div>
+    <img class="home-contact__image" src="{{ '/assets/images/landscapes/universidadlaboral_asturias.webp' | relative_url }}" alt="Universidad Laboral, City of Culture, Asturias" loading="lazy">
+    <p class="home-contact__caption">Universidad Laboral “Ciudad de la Cultura”, Asturias</p>
+  </div>
+  <div class="home-contact__copy">
+    <p class="eyebrow">CULTURE · KNOWLEDGE · LEARNING</p>
+    <h2>Build the future<br><em>from what we know.</em></h2>
+    <p>Culture and learning help us carry valuable knowledge forward and imagine new possibilities.</p>
+    <a class="button button--light" href="{{ '/reading/' | relative_url }}">Explore the reading room ↗</a>
+  </div>
+</section>
+
 <section class="collaboration-band">
   <p class="eyebrow">BETTER TOGETHER</p>
-  <h2>Good ideas get stronger<br>when they're <em>shared.</em></h2>
+  <h2>Good ideas grow<br>when they're <em>shared.</em></h2>
   <p>Have a project, a question or a perspective worth exploring together?</p>
-  <a class="button button--dark" href="{{ '/about/' | relative_url }}">Start a conversation ↗</a>
+  <a class="button button--dark" href="{{ '/about/' | relative_url }}">Let’s talk ↗</a>
 </section>

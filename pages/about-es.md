@@ -3,7 +3,7 @@ layout: page
 title: Merekai
 kicker: EL PROYECTO MEREKAI
 slogan: Hecho con Meraki
-description: "En griego, meraki significa poner el alma, la creatividad y el cariño en lo que haces. Ese espíritu está en el corazón de Merekai."
+description: "Merekai conecta personas, conocimiento y tecnología para cuidar lo valioso, imaginar futuros y convertir ideas en acciones."
 permalink: /es/about/
 lang: es
 translation_url: /about/
@@ -12,7 +12,7 @@ menu_order: 1
 about_page: true
 ---
 
-<section class="about-origin" aria-labelledby="about-origin-title">
+<section class="about-origin" id="origen" aria-labelledby="about-origin-title">
   <div class="about-origin__word">
     <span lang="el">μεράκι</span>
     <small>MERAKI · GRIEGO</small>
@@ -20,77 +20,82 @@ about_page: true
   <div class="about-origin__copy">
     <p class="eyebrow">Un nombre con sentido</p>
     <h2 id="about-origin-title">Poner el alma en lo que haces.</h2>
-    <p>En griego, <em>meraki</em> expresa hacer algo con alma, creatividad y cariño; dejar una parte de uno mismo en lo que crea. Es más que inspiración: es el cuidado y la intención que hacen que lo que construimos importe.</p>
+    <p>En griego, <em>meraki</em> expresa hacer algo con alma, creatividad y cuidado. Para nosotros, es una manera de mirar: atender a lo que nos rodea y poner intención en lo que hacemos y en el futuro que construimos.</p>
   </div>
 </section>
+
+<p class="about-intro"><strong>Merekai</strong> conecta personas, conocimiento y tecnología. No como una receta para un ámbito concreto, sino como una actitud ante la vida y el futuro: observar lo que cambia, cuidar lo que tiene valor, imaginar alternativas y hacerlas posibles en compañía.</p>
+
+<nav class="about-nav" aria-label="En esta página">
+  <a href="#mirada">Nuestra mirada <span aria-hidden="true">↓</span></a>
+  <a href="#personas">Quiénes somos <span aria-hidden="true">↓</span></a>
+  <a href="#practica">La filosofía en acción <span aria-hidden="true">↓</span></a>
+</nav>
 
 <section class="about-timeline" aria-label="Merekai en breve">
   <div class="about-timeline__item">
     <span class="about-timeline__icon" aria-hidden="true">◷</span>
     <strong>2016</strong>
-    <span>Las primeras preguntas</span>
+    <span>Primeras preguntas sobre conocimiento y tecnología</span>
   </div>
   <span class="about-timeline__path" aria-hidden="true"></span>
   <div class="about-timeline__item">
     <span class="about-timeline__icon" aria-hidden="true">◎</span>
     <strong>Personas + conocimiento</strong>
-    <span>Donde arraigan las ideas</span>
+    <span>Personas y saberes que dan contexto</span>
   </div>
   <span class="about-timeline__path" aria-hidden="true"></span>
   <div class="about-timeline__item">
     <span class="about-timeline__icon" aria-hidden="true">↗</span>
     <strong>Lo que viene</strong>
-    <span>Construir en compañía</span>
+    <span>Una mirada abierta a lo que viene</span>
   </div>
 </section>
 
-<figure class="about-visual about-visual--orbit">
-  <img src="{{ '/assets/images/editorial-abstract.svg' | relative_url }}" alt="Sol terracota y líneas orbitales, una ilustración abstracta de ideas en movimiento" loading="lazy">
-  <figcaption>Ideas en movimiento · Merekai desde 2016</figcaption>
-</figure>
+### Un nombre que resume nuestra forma de mirar
 
-**De esa idea nace Merekai:** un proyecto que conecta pasión, conocimiento y tecnología para que las voces, culturas e identidades locales tengan un lugar en el futuro digital. Creemos que la información importa cuando aporta contexto y refleja a las personas que hay detrás. Transformamos el conocimiento en iniciativas útiles y contribuimos a que lo local y singular no se pierda en un mundo digital cada vez más global.
-
-### Tres ideas. Un propósito.
-
-El nombre **Merekai** une el espíritu de *meraki* con nuestras raíces y nuestra visión de la tecnología:
+**Merekai** reúne tres referencias que orientan nuestro trabajo: el cuidado de *meraki*, nuestras raíces y la tecnología —incluida la inteligencia artificial— como herramienta al servicio de las personas.
 
 <div class="about-name-grid">
-  <div class="about-name-card"><span class="about-name-card__icon" aria-hidden="true">✳</span><span>01</span><h3>MERAKI</h3><p>Pasión, creatividad y cuidado en todo lo que hacemos.</p></div>
-  <div class="about-name-card"><span class="about-name-card__icon" aria-hidden="true">⌂</span><span>02</span><h3>ES</h3><p>España: nuestro origen, identidad y forma de mirar el mundo.</p></div>
-  <div class="about-name-card"><span class="about-name-card__icon" aria-hidden="true">✣</span><span>03</span><h3>AI</h3><p>Inteligencia artificial y el conocimiento que le da sentido.</p></div>
+  <div class="about-name-card"><span class="about-name-card__icon" aria-hidden="true">✳</span><span>01</span><h3>MERAKI</h3><p>Implicación, creatividad y cuidado al hacer.</p></div>
+  <div class="about-name-card"><span class="about-name-card__icon" aria-hidden="true">⌂</span><span>02</span><h3>ES</h3><p>Raíces y experiencias locales como punto de partida.</p></div>
+  <div class="about-name-card"><span class="about-name-card__icon" aria-hidden="true">✣</span><span>03</span><h3>AI</h3><p>Tecnología e inteligencia artificial con conocimiento y contexto.</p></div>
 </div>
 
-Desde 2016 creemos que la información puede enriquecer la inteligencia artificial cuando aporta algo más que datos. Necesita conocimiento, contexto y una mirada humana para convertirse en algo útil y significativo.
+De estas tres ideas surge una pregunta que nos acompaña en la vida, en los proyectos y al imaginar el futuro: ¿cómo avanzar sin perder de vista a las personas, los lugares y los conocimientos que dan sentido a lo que hacemos?
 
-### Una inteligencia más rica empieza con conocimiento diverso
+### El conocimiento necesita contexto para ser útil
 
-La inteligencia artificial aprende de grandes volúmenes de información: textos, documentos, publicaciones, archivos históricos y contenidos digitales. **Lo que no está documentado, digitalizado o representado en los datos corre el riesgo de volverse invisible para la IA.**
+<span id="mirada" class="about-anchor" aria-hidden="true"></span>
 
-Los contenidos abundantes en internet pueden alcanzar una amplia representación, mientras que el conocimiento local, las lenguas minoritarias, las tradiciones populares y la memoria colectiva de comunidades pequeñas pueden quedar relegados, diluidos o descontextualizados. Un conocimiento puede seguir vivo en las personas y sus costumbres, pero tener una presencia mínima en las fuentes digitales que alimentan la inteligencia artificial.
+La inteligencia artificial aprende de grandes volúmenes de información: textos, documentos, archivos y contenidos digitales. **Aquello que no se documenta o representa puede quedar fuera de lo que estos sistemas conocen.**
 
-Por eso, generar información de valor significa algo más que acumular datos: también implica preservar el conocimiento, el contexto y la singularidad que contienen. Cada comunidad tiene una historia que merece ser contada, un conocimiento que merece transmitirse y una identidad que merece estar presente en el futuro digital.
+El conocimiento local, las lenguas minoritarias, las tradiciones y la memoria de comunidades pequeñas pueden tener menos presencia o aparecer sin contexto. Sin embargo, ese saber sigue vivo en las personas, en sus prácticas y en la relación con su entorno.
+
+Por eso, enriquecer la información no consiste solo en reunir datos: también requiere comprender de dónde vienen, qué significan y a quiénes representan. El contexto permite que el conocimiento se comparta sin borrar su origen ni su singularidad.
 
 <details class="about-disclosure">
   <summary>¿Qué aporta el contexto a la información?</summary>
-  <div><p>El contexto ayuda a entender quién creó un conocimiento, de dónde procede y qué significa para las personas que lo mantienen vivo. Sin él, la información puede quedar incompleta o malinterpretarse.</p></div>
+  <div><p>El contexto explica quién produce un conocimiento, en qué circunstancias y qué significado tiene para quienes lo mantienen vivo. Ayuda a interpretarlo y a compartirlo con cuidado.</p></div>
 </details>
 
-<blockquote class="about-statement">El conocimiento local también forma parte de la inteligencia global.</blockquote>
+<blockquote class="about-statement">Lo local no es un margen: es parte del conocimiento compartido.</blockquote>
 
 <figure class="about-handwriting">
   <img src="{{ '/logo_handwriting.png' | relative_url }}" alt="Logotipo de Merekai dibujado a mano" loading="lazy">
 </figure>
 
-No queremos frenar la globalización, sino contribuir a que la diversidad no se diluya en ella. Queremos que las voces locales se escuchen, que las tradiciones tengan un lugar en los nuevos espacios de conocimiento y que la inteligencia artificial del futuro reconozca no solo lo universal, sino también aquello que hace única a cada comunidad.
+La tecnología puede ayudar a documentar, organizar y comunicar ese conocimiento, pero no sustituye a las personas que lo generan. Por eso, nuestro trabajo empieza escuchando y busca crear herramientas y experiencias que amplíen lo que ya existe.
 
 ### Del conocimiento a la colaboración
 
-[Oscar González](/oscar-gijon-es/), desarrollador, y [Penélope Blanco](/penelope-blanco-es/), ingeniera, se conocieron en la Universidad de Oviedo mientras participaban en proyectos de investigación sin ánimo de lucro. Compartían la curiosidad por explorar cómo el conocimiento podía trascender el ámbito académico y convertirse en algo práctico, tangible y abierto a los demás.
+<span id="personas" class="about-anchor" aria-hidden="true"></span>
 
-Sus trayectorias aportaban distintas formas de abordar los retos. Oscar se acercaba a ellos desde el desarrollo y las posibilidades de la tecnología; Penélope, desde el rigor de la ingeniería y una mirada clara sobre cómo diseñar soluciones viables. Juntos encontraron una manera natural de combinar visión y detalle, y de avanzar desde la idea hasta su realización.
+[Oscar González](/oscar-gijon-es/), desarrollador, y [Penélope Blanco](/penelope-blanco-es/), ingeniera, se conocieron en la Universidad de Oviedo mientras colaboraban en proyectos de investigación sin ánimo de lucro. Les unía una pregunta: cómo llevar el conocimiento más allá del ámbito académico y convertirlo en algo práctico, tangible y abierto.
 
-Su punto de encuentro iba más allá de lo profesional. Para ambos, innovar empieza con algunas preguntas esenciales: para quién se construye, qué necesidad merece atención y qué cambiará cuando la idea se lleve a la práctica.
+Sus trayectorias aportaban perspectivas complementarias. Oscar se acercaba a los retos desde el desarrollo y las posibilidades de la tecnología; Penélope, desde el rigor de la ingeniería y el diseño de soluciones viables. Esa combinación de visión y detalle sigue definiendo cómo pasan de una pregunta a una propuesta concreta.
+
+Para ambos, innovar empieza por preguntar para quién se construye, qué necesidad merece atención y qué puede cambiar cuando una idea se lleva a la práctica.
 
 <div class="about-principles" aria-label="Cómo entendemos la colaboración">
   <div><span aria-hidden="true">◉</span><strong>Escuchar</strong><p>Empezar por las personas y su experiencia.</p></div>
@@ -103,44 +108,61 @@ Su punto de encuentro iba más allá de lo profesional. Para ambos, innovar empi
   <figcaption>Miradas distintas, unidas por un propósito común</figcaption>
 </figure>
 
-### Una plataforma para que las ideas crezcan
+### Una filosofía que se lleva a la práctica
 
-El trabajo junto a personas y organizaciones comprometidas con sus comunidades amplió esa perspectiva. En esos espacios vieron cómo se coordinan esfuerzos diversos, cómo la experiencia se convierte en apoyo y cómo las iniciativas locales pueden responder a retos complejos. También reconocieron una oportunidad: sumar herramientas, conocimiento técnico y un diseño cuidadoso de proyectos a capacidades que ya estaban generando valor.
+<span id="practica" class="about-anchor" aria-hidden="true"></span>
 
-De esa experiencia nació Merekai. La plataforma da continuidad a las ideas y colaboraciones que inspiraron sus comienzos y las reúne bajo una identidad común. Es la puerta de entrada a los proyectos y, al mismo tiempo, el marco que los acompaña mientras toman forma.
+Esta mirada no pertenece a un sector ni a un tipo de proyecto. Puede ayudarnos a cuidar una tradición mientras cambia su contexto, imaginar un espacio antes de construirlo, crear ocasiones para que una comunidad se encuentre o encontrar formas de hacer lo mismo con menos impacto.
 
-### Un marco para acompañar proyectos
+Son expresiones distintas de una misma pregunta: ¿cómo ponemos el conocimiento, la creatividad y la tecnología al servicio de una vida mejor, sin perder de vista aquello que queremos cuidar?
 
-Cada proyecto tiene su identidad, su ritmo y las personas que lo hacen posible. Merekai ofrece un espacio común para dar forma a ese recorrido: conectar necesidades con capacidades, estructurar ideas, facilitar nuevas alianzas y acompañar su desarrollo a lo largo del tiempo.
+<section class="about-examples" aria-labelledby="about-examples-title">
+  <div class="about-examples__intro">
+    <p class="eyebrow">Una filosofía, muchas expresiones</p>
+    <h4 id="about-examples-title">Cuidar lo que importa. Imaginar lo que aún no existe.</h4>
+    <p>No son fichas de proyectos, sino ejemplos de una misma forma de mirar: comprender el contexto, reconocer lo que merece cuidado y usar la creatividad y la tecnología para abrir posibilidades.</p>
+  </div>
+  <div class="about-example-grid">
+    <figure class="about-example">
+      <img src="{{ '/assets/images/experiments/granadas.webp' | relative_url }}" alt="Granada creciendo entre las hojas de su árbol en Villaviciosa" loading="lazy">
+      <figcaption><strong>Tradición y cambio</strong><span>Granadas cultivadas en Villaviciosa, Asturias. Experimentar con cultivos ante el cambio climático invita a pensar cómo la tecnología transforma los saberes tradicionales.</span></figcaption>
+    </figure>
+    <figure class="about-example">
+      <div class="about-example__gallery">
+        <img src="{{ '/assets/images/experiments/renders_escenas_plató (1).webp' | relative_url }}" alt="Render de un espacio de trabajo diseñado para una serie de televisión" loading="lazy">
+        <img src="{{ '/assets/images/experiments/renders_escenas_plató (2).webp' | relative_url }}" alt="Render de una sala de reuniones diseñada para una serie de televisión" loading="lazy">
+      </div>
+      <figcaption><strong>Imaginar antes de construir</strong><span>Gemelos virtuales de dos escenarios para una serie de televisión: visualizar los espacios antes de producirlos y llevarlos al plató.</span></figcaption>
+    </figure>
+    <figure class="about-example">
+      <img src="{{ '/assets/images/experiments/comunidad.webp' | relative_url }}" alt="Actividad cultural en un núcleo rural" loading="lazy">
+      <figcaption><strong>Hacer comunidad</strong><span>En Arroes, Villaviciosa, el rodaje de un cortometraje con Javier Ideami se planteó para dinamizar el núcleo rural y fortalecer las conductas de grupo.</span></figcaption>
+    </figure>
+    <figure class="about-example">
+      <div class="about-example__gallery">
+        <img src="{{ '/assets/images/experiments/diseño_industrial.webp' | relative_url }}" alt="Boceto de diseño industrial para soportes expositivos" loading="lazy">
+        <img src="{{ '/assets/images/experiments/nuevo_soportes.webp' | relative_url }}" alt="Soportes expositivos instalados en un espacio urbano" loading="lazy">
+      </div>
+      <figcaption><strong>Hacer lo mismo con menos impacto</strong><span>Del boceto a la ciudad: soportes expositivos más económicos y reciclables para crear entornos de exposición con menor impacto ambiental.</span></figcaption>
+    </figure>
+  </div>
+</section>
 
-Las iniciativas que encuentran aquí su lugar suelen partir de preguntas concretas: ¿cómo acercar oportunidades a más personas?, ¿cómo fortalecer las redes de colaboración?, ¿cómo diseñar soluciones que convivan mejor con los recursos y ecosistemas de los que dependemos? Preguntas distintas, unidas por una misma ambición: construir respuestas útiles, responsables y pensadas para perdurar.
+<p>El software de código abierto es otra expresión de esta filosofía: compartir herramientas para que el conocimiento circule y la tecnología pueda adaptarse a las necesidades de las personas. No define por sí solo a Merekai; forma parte de una manera más amplia de crear y colaborar.</p>
 
-No hay una fórmula única. El primer paso puede ser investigar, crear un prototipo, conectar a quienes ya trabajan en un reto o encontrar una forma más eficaz de compartir recursos. Cada proyecto requiere su propia combinación de tecnología, experiencia y colaboración. La plataforma ayuda a que esas piezas se encuentren.
+### Una filosofía para el presente y el futuro
 
-### Innovación conectada con su contexto
+La tecnología es un medio, no el objetivo. Puede ayudar a transmitir saberes, visualizar una propuesta antes de realizarla, crear ocasiones para colaborar o diseñar alternativas que consuman menos recursos. Cada reto pide una respuesta distinta; también cada momento de la vida nos invita a decidir qué conservar, qué cambiar y qué queremos hacer posible.
 
-Para nosotros, desarrollar tecnología empieza mucho antes de escribir la primera línea de código. Empieza por comprender el contexto, reconocer lo que ya funciona y escuchar a quienes conocen el reto de primera mano. Así se diseñan soluciones conectadas con la realidad a la que quieren aportar.
-
-Integramos desarrollo, ingeniería e investigación con una visión amplia del impacto. Una solución debe funcionar, pero también ser accesible, poder evolucionar y aportar valor en su entorno. Así entendemos la innovación: no como una carrera hacia lo más nuevo, sino como la capacidad de imaginar y construir mejores alternativas.
+Esta mirada empieza por escuchar y entender el contexto antes de actuar. Sirve para una iniciativa colectiva, una herramienta digital, una decisión cotidiana o una idea de futuro: reconocer lo que ya existe, aprender de ello e imaginar, junto a otras personas, una alternativa mejor.
 
 <figure class="about-visual about-visual--ecosystem">
   <img src="{{ '/assets/images/ecosystem.svg' | relative_url }}" alt="Paisaje ilustrado que conecta comunidades y entorno natural" loading="lazy">
-  <figcaption>El conocimiento local forma parte de un futuro conectado</figcaption>
+  <figcaption>La tecnología cobra sentido cuando responde a las personas y su entorno</figcaption>
 </figure>
-
-### Una red que aprende y evoluciona
-
-Merekai no es un catálogo cerrado de iniciativas, sino una estructura viva. Cada colaboración suma experiencia; cada proyecto plantea nuevas preguntas y deja aprendizajes que pueden abrir camino a otros. Esa continuidad permite que las ideas prometedoras sigan desarrollándose y que distintas capacidades se encuentren alrededor de objetivos compartidos.
-
-Trabajamos con perspectiva de largo recorrido. Queremos que cada iniciativa crezca sin perder de vista lo que quiere aportar, que las alianzas se construyan desde la confianza y que el conocimiento circule entre quienes pueden ponerlo en práctica. Los cambios relevantes rara vez se resuelven con una sola herramienta: toman forma cuando tecnología y compromiso avanzan juntos.
-
-<details class="about-disclosure">
-  <summary>¿Qué significa ser una estructura viva?</summary>
-  <div><p>Significa que los proyectos pueden aprender unos de otros, adaptarse cuando cambian las necesidades y mantener disponibles los aprendizajes para futuras colaboraciones.</p></div>
-</details>
 
 ### ¿Qué podríamos construir juntos?
 
-Merekai es una invitación a explorar lo posible y construirlo en compañía. Si trabajas en una organización, investigas un reto, desarrollas tecnología o tienes una idea que busca colaboradores, nos encantará conocerla.
+Los ejemplos de esta página son solo algunas formas de expresar una filosofía abierta a muchos ámbitos de la vida. Puede empezar con una conversación, una inquietud cotidiana o una pregunta sobre el futuro que queremos compartir. Si tienes una idea, un reto o ganas de explorar posibilidades en compañía, nos encantará escucharte.
 
-**Hablemos de lo que podríamos poner en marcha.**
+**[Hablemos de lo que podemos imaginar y hacer juntos.](mailto:info@ogrgijon.es)**

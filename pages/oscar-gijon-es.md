@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Oscar Gijón · Desarrollo, innovación y diseño"
-description: ""
+description: "Desarrollador de software y perfil de innovación digital. Conecto desarrollo, datos y diseño para llevar retos complejos desde el análisis hasta soluciones útiles."
 permalink: /oscar-gijon-es/
 lang: es
 translation_url: /oscar-gijon/
@@ -13,11 +13,11 @@ menu_order: 2
 
 <div class="og-profile">
   <section class="og-hero">
-    <div class="og-kicker"><span>OGRGIJÓN</span><span>DESARROLLO · INNOVACIÓN · DISEÑO</span></div>
-    <p class="og-overline">Tecnología con propósito. Ideas en movimiento.</p>
-    <h1>Conectar ideas.<br><em>Crear impacto.</em></h1>
+    <div class="og-kicker"><span>OSCAR GIJÓN</span><span>DESARROLLO · INNOVACIÓN · DISEÑO</span></div>
+    <p class="og-overline">Desarrollo de software · Producto digital · Datos</p>
+    <h1>Oscar Gijón<br><em>Desarrollo e innovación digital.</em></h1>
     <div class="og-hero-bottom">
-      <p>Soy desarrollador e innovador tecnológico. Combino programación, datos y diseño digital para transformar necesidades complejas en soluciones útiles, desde la primera idea hasta una herramienta que funciona.</p>
+      <p>Soy Oscar Gijón, desarrollador de software con perfil transversal en producto digital, datos e innovación. Aporto una visión de extremo a extremo: entiendo el problema, alineo la solución con las necesidades del equipo y construyo herramientas digitales útiles, mantenibles y listas para evolucionar.</p>
       <a class="og-circle-link" href="#og-enfoque" aria-label="Descubrir mi enfoque">↓</a>
     </div>
     <div class="og-visual" aria-label="Visual abstracto de sistemas conectados">
@@ -33,8 +33,8 @@ menu_order: 2
     <div class="og-copy">
       <p class="og-label">UNA MIRADA TRANSVERSAL</p>
       <h2>No se trata solo de programar.<br><em>Se trata de aportar valor.</em></h2>
-      <p class="og-lead">Mi trayectoria combina desarrollo de software, diseño digital, sistemas conectados y trabajo con datos.</p>
-      <p>Me interesa el recorrido completo de una idea: comprender el problema, detectar oportunidades, diseñar una respuesta y construir una solución útil, mantenible y preparada para evolucionar. A lo largo de mi carrera he trabajado en aplicaciones, prototipos IoT, bases de datos, cuadros de mando y procesos de digitalización en distintos contextos.</p>
+      <p class="og-lead">Conecto desarrollo de software, producto digital, datos e IoT para convertir necesidades de negocio y de usuario en soluciones concretas.</p>
+      <p>He participado en proyectos de digitalización, desarrollo de MVP, sistemas de datos, cuadros de mando, herramientas de gestión y prototipos IoT. Mi aportación está en conectar las piezas: traducir objetivos en requisitos, colaborar con perfiles diversos y llevar las ideas a soluciones que se puedan utilizar y mejorar.</p>
       <p>Me adapto a las herramientas que necesita cada reto. La tecnología cambia; el objetivo sigue siendo el mismo: hacer que las cosas sucedan y que el resultado aporte valor más allá de la primera entrega.</p>
       <blockquote>La tecnología no es el fin. Es el medio para convertir posibilidades en realidades.</blockquote>
     </div>
@@ -145,11 +145,7 @@ menu_order: 2
     </div>
   </section>
 
-  <section class="og-merekai-callout">
-    <div class="og-merekai-mark"><span>M</span><i>↗</i></div>
-    <div class="og-merekai-copy"><p class="og-label">PROYECTO PERSONAL · DESDE 2020</p><h2>Merekai es el espacio<br><em>donde las ideas se convierten en proyectos.</em></h2><p>Merekai es mi proyecto personal: una iniciativa propia desde la que exploro ideas, desarrollo soluciones y doy continuidad a proyectos tecnológicos. También reúne una parte de mi trabajo de código abierto, compartido para que otras personas puedan descubrirlo, utilizarlo o colaborar.</p><a class="og-merekai-link" href="https://github.com/search?q=Merekai&type=repositories" target="_blank" rel="noopener">Descubrir proyectos open source <span>↗</span></a><p class="og-merekai-note">El enlace abre una búsqueda pública de repositorios en GitHub relacionados con Merekai. Se puede sustituir por el perfil u organización oficial cuando se defina la URL canónica.</p></div>
-  </section>
   <section class="og-method" id="og-enfoque"><div class="og-section og-method-inner"><div class="og-index"><span>05</span> ENFOQUE</div><div class="og-method-content"><p class="og-label">DEL PROBLEMA AL PROTOTIPO</p><h2>Entender primero.<br><em>Diseñar con intención.</em></h2><div class="og-steps"><article><span>01</span><h3>Comprender</h3><p>Investigar el contexto y concretar qué necesita resolverse antes de elegir herramientas.</p></article><article><span>02</span><h3>Conectar</h3><p>Unir tecnología, datos y diseño para encontrar una solución coherente con el objetivo.</p></article><article><span>03</span><h3>Construir</h3><p>Probar, iterar y desarrollar algo útil, mantenible y preparado para crecer.</p></article></div></div></div></section>
 
-  <section class="og-end"><p class="og-label">NUEVOS RETOS PROFESIONALES</p><h2>¿Construimos<br><em>algo que importe?</em></h2><p>Estoy interesado en oportunidades donde aportar experiencia en desarrollo, innovación, datos y diseño digital. Si buscas un perfil transversal que conecte el problema con la solución, hablemos.</p><div class="og-actions"><a href="{{ '/assets/cv/oscar-gijon-resume.pdf' | relative_url }}" download>Descargar CV (PDF) ↓</a><a href="https://www.ogrgijon.es" target="_blank" rel="noopener">ogrgijon.es ↗</a><a href="https://es.linkedin.com/in/ogrgijon" target="_blank" rel="noopener">LinkedIn ↗</a><a href="mailto:info@ogrgijon.es">info@ogrgijon.es ↗</a></div></section>
+  <section class="og-end"><p class="og-label">ABIERTO A NUEVOS RETOS PROFESIONALES</p><h2>¿Necesitas convertir<br><em>un reto en producto?</em></h2><p>Me interesan posiciones de desarrollo de software, producto digital e innovación tecnológica donde pueda combinar ejecución técnica, visión de conjunto y colaboración con negocio y usuarios. ¿Buscas a alguien que conecte el problema con la solución? Hablemos.</p><div class="og-actions"><a href="{{ '/assets/cv/oscar-gijon-cv.pdf' | relative_url }}" download>Descargar CV (PDF) ↓</a><a href="https://www.ogrgijon.es" target="_blank" rel="noopener">ogrgijon.es ↗</a><a href="https://es.linkedin.com/in/ogrgijon" target="_blank" rel="noopener">LinkedIn ↗</a><a href="mailto:info@ogrgijon.es">info@ogrgijon.es ↗</a></div></section>
 </div>

@@ -15,9 +15,9 @@ menu_order: 3
   <section class="og-hero">
     <div class="og-kicker"><span>PENÉLOPE BLANCO</span><span>ENGINEERING · SCIENCE · EDUCATION</span></div>
     <p class="og-overline">A technical perspective. Scientific curiosity. A passion for teaching.</p>
-    <h1>Connecting disciplines.<br><em>Building understanding.</em></h1>
+    <h1>Penélope Blanco<br><em>Engineering, science and education.</em></h1>
     <div class="og-hero-bottom">
-      <p>I am an industrial chemical and mechanical engineer, a mathematics teacher and a senior laboratory technician. My career brings together engineering, science, process analysis and education: distinct perspectives that complement one another in understanding problems and sharing knowledge.</p>
+      <p>I’m Penélope Blanco, an industrial chemical and mechanical engineer, a mathematics teacher and a senior laboratory technician. My career brings together engineering, science, process analysis and education: distinct perspectives that complement one another in understanding problems and sharing knowledge.</p>
       <a class="og-circle-link" href="#pb-enfoque" aria-label="Discover my teaching approach">↓</a>
     </div>
     <div class="og-visual" aria-label="A mathematical expression representing different ways of learning">
@@ -73,5 +73,5 @@ menu_order: 3
 
   <section class="og-method" id="pb-enfoque"><div class="og-section og-method-inner"><div class="og-index"><span>05</span> AN INTEGRATED PERSPECTIVE</div><div class="og-method-content"><p class="og-label">FROM ANALYSIS TO COMMUNICATION</p><h2>Understand systems.<br><em>Share what we learn.</em></h2><div class="og-steps"><article><span>01</span><h3>Observe</h3><p>Identify the context, listen to different perspectives and ask the questions that help clarify the challenge.</p></article><article><span>02</span><h3>Analyse</h3><p>Apply method, reasoning and attention to detail to connect data, processes and possible explanations.</p></article><article><span>03</span><h3>Communicate</h3><p>Translate complexity into clear ideas, whether teaching, sharing knowledge or collaborating in a technical setting.</p></article></div></div></div></section>
 
-  <section class="og-end"><p class="og-label">ENGINEERING · SCIENCE · EDUCATION</p><h2>Different disciplines.<br><em>One shared curiosity.</em></h2><p>I am interested in challenges where technical analysis, science, process improvement and teaching meet. If you are looking for a versatile professional who is passionate about sharing knowledge, let's connect.</p><div class="og-actions"><a href="{{ '/assets/cv/penelope-blanco-resume.pdf' | relative_url }}" download>Download CV (PDF) ↓</a><a href="https://www.linkedin.com/in/penelopeblancoacedo" target="_blank" rel="noopener">LinkedIn ↗</a></div></section>
+  <section class="og-end"><p class="og-label">ENGINEERING · SCIENCE · EDUCATION</p><h2>Different disciplines.<br><em>One shared curiosity.</em></h2><p>I am interested in challenges where technical analysis, science, process improvement and teaching meet. If you are looking for a versatile professional who is passionate about sharing knowledge, let's connect.</p><div class="og-actions"><a href="{{ '/assets/cv/penelope-blanco-cv.pdf' | relative_url }}" download>Download CV (PDF) ↓</a><a href="https://www.linkedin.com/in/penelopeblancoacedo" target="_blank" rel="noopener">LinkedIn ↗</a></div></section>
 </div>

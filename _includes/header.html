@@ -1,9 +1,10 @@
 <header class="site-header">
   <div class="header-inner">
     {% assign locale_root = '' %}{% if page.lang == 'es' %}{% assign locale_root = '/es' %}{% endif %}
-    {% assign home_url = locale_root | append: '/' %}{% if page.lang == 'en' and page.url == '/en/' %}{% assign home_url = '/en/' %}{% endif %}
+    {% assign home_url = locale_root | append: '/' %}{% if page.lang != 'es' %}{% assign home_url = '/en/' %}{% endif %}
     <a class="wordmark" href="{{ home_url | relative_url }}" aria-label="{{ site.title }} home"><img class="wordmark-icon" src="{{ '/logo.svg' | relative_url }}" alt=""> <span class="wordmark-text">THE <span>MEREKAI</span><br>PROJECT<span class="wordmark-dot">.</span></span></a>
     <nav class="main-nav" aria-label="{% if page.lang == 'es' %}Navegación principal{% else %}Main navigation{% endif %}">
+      <a href="{{ home_url | relative_url }}">{% if page.lang == 'es' %}Inicio{% else %}Home{% endif %}</a>
       <a href="{{ locale_root | append: '/journal/' | relative_url }}">{% if page.lang == 'es' %}Anuario{% else %}Journal{% endif %}</a>
       <a href="{{ locale_root | append: '/projects/' | relative_url }}">{% if page.lang == 'es' %}Proyectos{% else %}Projects{% endif %}</a>
       <a href="{{ locale_root | append: '/reading/' | relative_url }}"{% if page.url contains '/reading/' %} aria-current="page"{% endif %}>{% if page.lang == 'es' %}Sala de lectura{% else %}Reading Room{% endif %}</a>

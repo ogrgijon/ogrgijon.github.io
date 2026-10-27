@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Penélope Blanco · Ingeniería, ciencia y educación"
-description: "Ingeniera química y mecánica industrial, profesora de matemáticas y técnica de laboratorio. Un perfil que conecta ingeniería, ciencia, procesos y educación."
+description: "Ingeniera industrial con formación en química y mecánica, experiencia docente y base de laboratorio. Conecto análisis de procesos, ciencia y comunicación para aportar rigor y claridad."
 permalink: /penelope-blanco-es/
 lang: es
 translation_url: /penelope-blanco/
@@ -14,10 +14,10 @@ menu_order: 3
 <div class="og-profile pb-profile">
   <section class="og-hero">
     <div class="og-kicker"><span>PENÉLOPE BLANCO</span><span>INGENIERÍA · CIENCIA · EDUCACIÓN</span></div>
-    <p class="og-overline">Mirada técnica. Curiosidad científica. Vocación por enseñar.</p>
-    <h1>Conectar disciplinas.<br><em>Crear comprensión.</em></h1>
+    <p class="og-overline">Ingeniería industrial · Procesos · Educación STEM</p>
+    <h1>Penélope Blanco<br><em>Ingeniería, ciencia y educación.</em></h1>
     <div class="og-hero-bottom">
-      <p>Soy ingeniera química industrial y mecánica industrial, profesora de matemáticas y técnica superior de laboratorio. Mi trayectoria reúne ingeniería, ciencia, análisis de procesos y educación: perspectivas distintas que se complementan para comprender problemas y compartir conocimiento.</p>
+      <p>Soy Penélope Blanco, ingeniera química y mecánica industrial, con formación docente y de laboratorio. Mi perfil combina pensamiento analítico, comprensión de procesos y capacidad para comunicar conceptos complejos; una combinación útil en entornos técnicos, de calidad, laboratorio y educación STEM.</p>
       <a class="og-circle-link" href="#pb-enfoque" aria-label="Descubrir mi enfoque docente">↓</a>
     </div>
     <div class="og-visual" aria-label="Una expresión matemática que representa distintas formas de aprender">
@@ -33,9 +33,9 @@ menu_order: 3
     <div class="og-copy">
       <p class="og-label">UN PERFIL QUE CRUZA FRONTERAS</p>
       <h2>De los procesos industriales<br><em>al aula y al laboratorio.</em></h2>
-      <p class="og-lead">Mi recorrido conecta ingeniería mecánica y química, práctica de laboratorio y enseñanza. Me interesa comprender cómo funcionan las cosas, analizar sus procesos y hacer accesible ese conocimiento.</p>
+      <p class="og-lead">Conecto ingeniería, ciencia experimental y enseñanza para analizar sistemas, comprender procesos y convertir conocimiento técnico en decisiones o aprendizajes claros.</p>
       <p>La ingeniería aporta una forma estructurada de abordar retos: observar el sistema, identificar variables, analizar causas y valorar alternativas. La formación química y la experiencia de laboratorio suman atención al detalle, método experimental y respeto por el rigor de los datos.</p>
-      <p>En el aula, esa misma mirada se convierte en una manera de enseñar matemáticas desde la comprensión y sus aplicaciones. Entiendo la docencia como una tarea de escucha y acompañamiento: crear un entorno cercano, explicar con claridad y ayudar a que cada persona encuentre sentido a lo que aprende. Ciencia, industria y educación no son compartimentos aislados, sino ámbitos que pueden enriquecerse mutuamente.</p>
+      <p>En educación, aplico esa misma mirada para enseñar matemáticas desde la comprensión y sus aplicaciones. En equipos técnicos, aporta método experimental, atención al detalle y una comunicación cercana. Ciencia, industria y educación no son compartimentos aislados: puedo tender puentes entre ellos y adaptarme al contexto de cada equipo.</p>
       <blockquote>Comprender un proceso, experimentar y enseñar comparten algo esencial: observar, hacerse preguntas y aprender a partir de la evidencia.</blockquote>
     </div>
   </section>
@@ -73,5 +73,5 @@ menu_order: 3
 
   <section class="og-method" id="pb-enfoque"><div class="og-section og-method-inner"><div class="og-index"><span>05</span> UNA MIRADA INTEGRADORA</div><div class="og-method-content"><p class="og-label">DEL ANÁLISIS A LA COMUNICACIÓN</p><h2>Entender los sistemas.<br><em>Compartir lo aprendido.</em></h2><div class="og-steps"><article><span>01</span><h3>Observar</h3><p>Identificar el contexto, escuchar diferentes perspectivas y formular las preguntas que ayudan a entender el reto.</p></article><article><span>02</span><h3>Analizar</h3><p>Aplicar método, razonamiento y atención al detalle para relacionar datos, procesos y posibles explicaciones.</p></article><article><span>03</span><h3>Comunicar</h3><p>Traducir lo complejo en ideas claras, ya sea al enseñar, divulgar o colaborar en un entorno técnico.</p></article></div></div></div></section>
 
-  <section class="og-end"><p class="og-label">INGENIERÍA · CIENCIA · EDUCACIÓN</p><h2>Distintas disciplinas.<br><em>Una misma curiosidad.</em></h2><p>Me interesan los retos donde se encuentran el análisis técnico, la ciencia, la mejora de procesos y la enseñanza. Si buscas un perfil versátil y con vocación por compartir conocimiento, podemos conectar.</p><div class="og-actions"><a href="{{ '/assets/cv/penelope-blanco-resume.pdf' | relative_url }}" download>Descargar CV (PDF) ↓</a><a href="https://www.linkedin.com/in/penelopeblancoacedo" target="_blank" rel="noopener">LinkedIn ↗</a></div></section>
+  <section class="og-end"><p class="og-label">ABIERTA A NUEVOS RETOS PROFESIONALES</p><h2>Rigor técnico.<br><em>Comunicación que conecta.</em></h2><p>Me interesan oportunidades en ingeniería y mejora de procesos, laboratorio y calidad, así como educación STEM. Puedo aportar análisis, curiosidad científica y capacidad para explicar con claridad. Si buscas un perfil que conecte disciplinas y personas, hablemos.</p><div class="og-actions"><a href="{{ '/assets/cv/penelope-blanco-cv.pdf' | relative_url }}" download>Descargar CV (PDF) ↓</a><a href="https://www.linkedin.com/in/penelopeblancoacedo" target="_blank" rel="noopener">LinkedIn ↗</a></div></section>
 </div>
