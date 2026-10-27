@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 620" role="img" aria-labelledby="title desc">
+  <title id="title">Project illustration</title>
+  <desc id="desc">Centered circular editorial artwork for a project without its own logo.</desc>
+  <defs>
+    <clipPath id="circle"><circle cx="310" cy="310" r="298"/></clipPath>
+  </defs>
+  <circle cx="310" cy="310" r="304" fill="#E9E5DB" stroke="#263532" stroke-width="4"/>
+  <g clip-path="url(#circle)">
+    <circle cx="378" cy="229" r="101" fill="#BD573A"/>
+    <g fill="none" stroke="#263532" stroke-width="3">
+      <ellipse cx="310" cy="310" rx="270" ry="126" transform="rotate(-28 310 310)"/>
+      <ellipse cx="310" cy="310" rx="203" ry="248" transform="rotate(32 310 310)"/>
+    </g>
+    <circle cx="198" cy="379" r="43" fill="#52695D"/>
+    <path d="M198 352v54m-27-27h54m-46-19 38 38m0-38-38 38" stroke="#F7F6F2" stroke-width="3"/>
+  </g>
+</svg>

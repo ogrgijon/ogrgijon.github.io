@@ -144,3 +144,15 @@
   .pb-profile .pb-attitudes{padding:58px 0 65px}
   .pb-profile .pb-formation article{padding:15px}
 }
+.og-profile .og-hero-intro{display:grid;grid-template-columns:240px minmax(0,1fr);align-items:center;gap:38px;margin:12px 0 35px}
+.og-profile .og-hero-intro h1{margin:0;font-size:clamp(52px,6.3vw,82px)}
+.og-profile .og-hero-portrait{width:220px;margin:0;align-self:center;display:flex;flex-direction:column}
+.og-profile .og-hero-portrait img{display:block;width:220px;height:285px;object-fit:contain;object-position:center bottom;background:var(--og-ink);border:1px solid var(--og-line);border-bottom:3px solid var(--og-lime);border-radius:110px 110px 2px 2px}
+.og-profile .og-hero-portrait figcaption{padding:9px 0 0;color:var(--og-muted);font:500 9px/1.5 'DM Mono',monospace;letter-spacing:.07em;text-transform:uppercase}
+@media(max-width:600px){
+  .og-profile .og-hero-intro{grid-template-columns:145px minmax(0,1fr);gap:18px}
+  .og-profile .og-hero-portrait{width:135px}
+  .og-profile .og-hero-portrait img{width:135px;height:180px;border-radius:68px 68px 2px 2px}
+  .og-profile .og-hero-portrait figcaption{font-size:8px}
+  .og-profile .og-hero-intro h1{font-size:clamp(32px,7vw,52px)}
+}

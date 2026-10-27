@@ -15,7 +15,10 @@ menu_order: 2
   <section class="og-hero">
     <div class="og-kicker"><span>OSCAR GIJÓN</span><span>DESARROLLO · INNOVACIÓN · DISEÑO</span></div>
     <p class="og-overline">Desarrollo de software · Producto digital · Datos</p>
-    <h1>Oscar Gijón<br><em>Desarrollo e innovación digital.</em></h1>
+    <div class="og-hero-intro">
+      <figure class="og-hero-portrait"><img src="{{ '/assets/images/personal/oscar_2026.webp' | relative_url }}" alt="Oscar Gijón"><figcaption>Desarrollador, innovador<br>digital y diseñador</figcaption></figure>
+      <h1>Oscar Gijón<br><em>Desarrollo e innovación digital.</em></h1>
+    </div>
     <div class="og-hero-bottom">
       <p>Soy Oscar Gijón, desarrollador de software con perfil transversal en producto digital, datos e innovación. Aporto una visión de extremo a extremo: entiendo el problema, alineo la solución con las necesidades del equipo y construyo herramientas digitales útiles, mantenibles y listas para evolucionar.</p>
       <a class="og-circle-link" href="#og-enfoque" aria-label="Descubrir mi enfoque">↓</a>

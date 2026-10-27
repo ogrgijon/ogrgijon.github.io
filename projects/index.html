@@ -9,8 +9,8 @@ permalink: /projects/
 {% assign github_projects = site.pages | where: "github_project", true | where: "lang", "en" | sort: "title" %}
 {% for project in github_projects %}
   <article class="project-row">
-    <div class="project-row__brand{% unless project.project_logo %} project-row__brand--abstract{% endunless %}">
-      {% if project.project_logo %}<img src="{{ project.project_logo }}" alt="" loading="lazy">{% else %}<span class="project-row__art" aria-hidden="true"></span>{% endif %}
+    <div class="project-row__brand">
+      {% if project.project_logo %}<img src="{{ project.project_logo }}" alt="" loading="lazy">{% else %}<img src="{{ '/assets/images/project-placeholder.svg' | relative_url }}" alt="" loading="lazy">{% endif %}
     </div>
     <div><p class="eyebrow">{{ project.language | default: "GITHUB PROJECT" }}</p><h2><a href="{{ project.url | relative_url }}">{{ project.title | escape }}</a></h2><p>{{ project.description }}</p></div>
     <a class="project-arrow" href="{{ project.url | relative_url }}" aria-label="View {{ project.title | escape }}">↗</a>

@@ -15,7 +15,10 @@ menu_order: 2
   <section class="og-hero">
     <div class="og-kicker"><span>OSCAR GIJÓN</span><span>DEVELOPMENT · INNOVATION · DESIGN</span></div>
     <p class="og-overline">Technology with purpose. Ideas in motion.</p>
-    <h1>Oscar Gijón<br><em>Development and digital innovation.</em></h1>
+    <div class="og-hero-intro">
+      <figure class="og-hero-portrait"><img src="{{ '/assets/images/personal/oscar_2026.webp' | relative_url }}" alt="Oscar Gijón"><figcaption>Developer, digital innovator<br>&amp; designer</figcaption></figure>
+      <h1>Oscar Gijón<br><em>Development and digital innovation.</em></h1>
+    </div>
     <div class="og-hero-bottom">
       <p>I’m Oscar Gijón, a developer and technology innovator. I combine software, data and digital design to turn complex needs into useful solutions, from the first idea to a working tool.</p>
       <a class="og-circle-link" href="#og-enfoque" aria-label="Discover my approach">↓</a>

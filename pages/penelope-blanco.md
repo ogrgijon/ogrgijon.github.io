@@ -15,7 +15,10 @@ menu_order: 3
   <section class="og-hero">
     <div class="og-kicker"><span>PENÉLOPE BLANCO</span><span>ENGINEERING · SCIENCE · EDUCATION</span></div>
     <p class="og-overline">A technical perspective. Scientific curiosity. A passion for teaching.</p>
-    <h1>Penélope Blanco<br><em>Engineering, science and education.</em></h1>
+    <div class="og-hero-intro">
+      <figure class="og-hero-portrait"><img src="{{ '/assets/images/personal/penelope_2026.webp' | relative_url }}" alt="Penélope Blanco"><figcaption>Engineer, scientist<br>&amp; educator</figcaption></figure>
+      <h1>Penélope Blanco<br><em>Engineering, science and education.</em></h1>
+    </div>
     <div class="og-hero-bottom">
       <p>I’m Penélope Blanco, an industrial chemical and mechanical engineer, a mathematics teacher and a senior laboratory technician. My career brings together engineering, science, process analysis and education: distinct perspectives that complement one another in understanding problems and sharing knowledge.</p>
       <a class="og-circle-link" href="#pb-enfoque" aria-label="Discover my teaching approach">↓</a>

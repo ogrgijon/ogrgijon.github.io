@@ -15,7 +15,10 @@ menu_order: 3
   <section class="og-hero">
     <div class="og-kicker"><span>PENÉLOPE BLANCO</span><span>INGENIERÍA · CIENCIA · EDUCACIÓN</span></div>
     <p class="og-overline">Ingeniería industrial · Procesos · Educación STEM</p>
-    <h1>Penélope Blanco<br><em>Ingeniería, ciencia y educación.</em></h1>
+    <div class="og-hero-intro">
+      <figure class="og-hero-portrait"><img src="{{ '/assets/images/personal/penelope_2026.webp' | relative_url }}" alt="Penélope Blanco"><figcaption>Ingeniera, científica<br>y docente</figcaption></figure>
+      <h1>Penélope Blanco<br><em>Ingeniería, ciencia y educación.</em></h1>
+    </div>
     <div class="og-hero-bottom">
       <p>Soy Penélope Blanco, ingeniera química y mecánica industrial, con formación docente y de laboratorio. Mi perfil combina pensamiento analítico, comprensión de procesos y capacidad para comunicar conceptos complejos; una combinación útil en entornos técnicos, de calidad, laboratorio y educación STEM.</p>
       <a class="og-circle-link" href="#pb-enfoque" aria-label="Descubrir mi enfoque docente">↓</a>
