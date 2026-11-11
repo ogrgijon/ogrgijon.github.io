@@ -48,4 +48,3 @@ El repositorio contiene configuraciones para OrcaSlicer; no incluye ni modifica 
 
 Estos perfiles forman parte de un proyecto experimental y se han probado en una impresora BCN3D Sigma con el último firmware publicado por BCN3D. Esa prueba corresponde a una configuración concreta: no garantiza el mismo resultado en todas las unidades, revisiones de Sigma, materiales o condiciones de impresión. Verifica siempre la compatibilidad y supervisa las primeras pruebas.
 
-[Explorar el repositorio, el historial y las instrucciones](https://github.com/ogrgijon/ORCASLICER_SIGMA_BCN3D)

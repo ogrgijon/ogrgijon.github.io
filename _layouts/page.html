@@ -42,10 +42,18 @@ layout: default
       {% endfor %}
     </div>
     {% endif %}
+    {% if page.repository %}
+    <a class="project-showcase__cta" href="https://github.com/{{ page.repository }}">{% if page.lang == 'es' %}Accede al repositorio{% else %}View the repository{% endif %} <span aria-hidden="true">↗</span></a>
+    {% endif %}
   </section>
   {% endif %}
   {% if page.reading_article %}<article class="reading-note">{% endif %}
   {{ content }}
   {% if page.reading_article %}</article>{% endif %}
+  {% if page.github_project and page.repository %}
+  <div class="project-footer-cta">
+    <a href="https://github.com/{{ page.repository }}">{% if page.lang == 'es' %}Accede al repositorio{% else %}View the repository{% endif %} <span aria-hidden="true">↗</span></a>
+  </div>
+  {% endif %}
   {% include article-share.html %}
 </div>
