@@ -4,9 +4,9 @@ subtitle: "La IA acorta el ciclo de imitación. La ventaja duradera dependerá d
 date: 2026-11-11
 category: INTELIGENCIA ARTIFICIAL
 description: "La inteligencia artificial acelera la copia y la sustitución de productos. El gobierno del dato y el know-how pueden convertirse en la ventaja competitiva más difícil de replicar."
-image: /assets/images/reading-room.svg
-image_alt: "Un espacio de lectura y análisis que representa la transformación de datos en conocimiento"
-image_caption: "El conocimiento solo es una ventaja cuando la organización puede encontrarlo, entenderlo y usarlo."
+image: /assets/images/data-governance-know-how.png
+image_alt: "Un libro abierto del que brotan ramas de datos alrededor de un núcleo geométrico terracota"
+image_caption: "El conocimiento acumulado cobra valor cuando se organiza y se gobierna."
 lang: es
 translation_url: /journal/2026/11/11/data-governance-strategic-asset/
 permalink: /es/journal/2026/11/11/gobierno-del-dato-know-how/

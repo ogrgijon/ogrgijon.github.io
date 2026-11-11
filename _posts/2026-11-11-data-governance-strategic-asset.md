@@ -4,9 +4,9 @@ subtitle: "AI is shortening the imitation cycle. A lasting advantage will depend
 date: 2026-11-11
 category: ARTIFICIAL INTELLIGENCE
 description: "AI is accelerating the replication and substitution of products. Data governance and know-how can become a company's hardest-to-replicate competitive advantage."
-image: /assets/images/reading-room.svg
-image_alt: "A space for reading and analysis, representing the transformation of data into knowledge"
-image_caption: "Knowledge is an advantage only when an organisation can find it, understand it and put it to use."
+image: /assets/images/data-governance-know-how.png
+image_alt: "An open book sending out data branches around a terracotta geometric core"
+image_caption: "Accumulated knowledge becomes valuable when it is organised and governed."
 translation_url: /es/journal/2026/11/11/gobierno-del-dato-know-how/
 ---
 How long would it take a competitor to reproduce what took your company years to build?
