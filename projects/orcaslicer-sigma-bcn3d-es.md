@@ -8,6 +8,8 @@ lang: es
 translation_url: /projects/orcaslicer-sigma-bcn3d/
 repository: ogrgijon/ORCASLICER_SIGMA_BCN3D
 language: Perfiles de impresión 3D
+project_logo: "https://raw.githubusercontent.com/ogrgijon/ORCASLICER_SIGMA_BCN3D/main/project_icon.png"
+project_logo_alt: "Icono del proyecto OrcaSlicer Sigma BCN3D"
 project_visual: "https://raw.githubusercontent.com/ogrgijon/ORCASLICER_SIGMA_BCN3D/main/BCN3D_SIGMA_ORCA_PROFILE/V.2.05/BCN3D/BCN3D%20Sigma%20R18_cover.png"
 project_visual_alt: "Impresora BCN3D Sigma"
 project_visual_caption: "Imagen de una impresora BCN3D Sigma incluida en el README del proyecto."
