@@ -1,24 +1,70 @@
-# The Merekai Project
+<p align="center">
+  <img src="logo.svg" alt="The Merekai Project" width="220">
+</p>
 
-The Merekai Project is a bilingual editorial and project website exploring ideas, technology, culture, tradition and the future. It brings thoughtful writing together with practical projects and resources, creating a home for curiosity, reflection and work with purpose.
+<p align="center">
+  <strong>A thoughtful corner of the web</strong><br>
+  Ideas, technology, culture and tradition — to explore at your own pace.
+</p>
 
-The site is designed as a calm, readable web publication: editorial typography, focused long-form layouts and responsive pages make it comfortable to explore on desktop and mobile. Spanish is the default experience; English-language pages are available throughout the site.
+<p align="center">
+  <a href="https://merekai.es"><strong>EXPLORE MEREKAI&nbsp; ↗</strong></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://github.com/ogrgijon/ogrgijon.github.io">Browse the source</a>
+</p>
 
-## Explore Merekai
+<p align="center">
+  <a href="https://merekai.es">
+    <img src="assets/images/editorial-abstract.svg" alt="Merekai's warm, terracotta-toned editorial artwork" width="100%">
+  </a>
+</p>
 
-- **Journal** — essays and perspectives on technology, culture and a changing world.
-- **Projects** — initiatives, experiments and work shaped by the site's mission.
-- **Reading Room** — a dedicated space for long-form articles, with a reusable editorial layout for subjects ranging from art and philosophy to technology.
-- **Tradition** — recurring Spanish-language articles and a cultural calendar with approximate lunar and solar markers.
-- **About** — the project's purpose, background and ways to get in touch.
+> **Just here to read?** You don't need to install or download anything. The website is ready to explore at **[merekai.es](https://merekai.es)**. This GitHub page is the workshop behind it; the link above takes you to the live site.
 
-The site also includes a language switcher, responsive navigation, RSS feed, sitemap and search-engine metadata. Its Gijón information panel uses locally stored tide and solunar data rather than making browser requests to external services.
+---
 
-## Built with
+## A few paths to follow
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://merekai.es/journal/"><img src="assets/images/team-collaboration.svg" alt="Connected people and shared ideas" width="90%"></a><br>
+      <strong><a href="https://merekai.es/journal/">THE JOURNAL</a></strong><br>
+      Essays on technology, culture and a changing world.
+    </td>
+    <td align="center" width="50%">
+      <a href="https://merekai.es/projects/"><img src="assets/images/ecosystem.svg" alt="An interconnected ecosystem of ideas and projects" width="90%"></a><br>
+      <strong><a href="https://merekai.es/projects/">PROJECTS</a></strong><br>
+      Experiments, initiatives and things made with purpose.
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://merekai.es/reading/"><img src="assets/images/reading-room.svg" alt="An open book in a calm reading space" width="90%"></a><br>
+      <strong><a href="https://merekai.es/reading/">THE READING ROOM</a></strong><br>
+      A quiet place for longer ideas and reflection.
+    </td>
+    <td align="center" width="50%">
+      <a href="https://merekai.es/es/tradition/"><img src="assets/images/tradition-summer.svg" alt="A summer sun over mountains and water" width="90%"></a><br>
+      <strong><a href="https://merekai.es/es/tradition/">TRADITION</a></strong><br>
+      Spanish stories and customs rooted in place.
+    </td>
+  </tr>
+</table>
+
+Merekai is a bilingual editorial and project website, designed to be calm, readable and welcoming on both desktop and mobile. It includes a language switcher, responsive navigation, an RSS feed and a sitemap. Its Gijón information panel uses local tide and solunar data rather than making browser requests to external services.
+
+<p align="center"><a href="https://merekai.es/about/"><strong>More about the project →</strong></a></p>
+
+## Curious about how it works?
+
+This repository contains the source code and content used to build the website. It is for people who want to learn how the site is made, run it on their computer, contribute or publish new content. If you simply want to visit, head to **[merekai.es](https://merekai.es)**.
+
+### Built with
 
 Merekai is a static website built with [Jekyll](https://jekyllrb.com/), Liquid templates, Markdown and custom CSS. Journal entries and project pages are maintained as content files, while shared layouts and includes keep the experience consistent. GitHub Actions can build and deploy the site to GitHub Pages.
 
-## Run locally
+### Run locally
 
 Install Ruby and Bundler, then from the repository directory run:
 

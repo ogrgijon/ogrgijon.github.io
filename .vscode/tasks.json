@@ -2,21 +2,65 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Preview Merekai Website",
-      "type": "shell",
+      "label": "Jekyll: Serve",
+      "type": "process",
       "command": "bundle",
       "args": [
         "exec",
         "jekyll",
         "serve",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "4000",
+        "--destination",
+        "production",
         "--baseurl=",
         "--livereload"
       ],
       "isBackground": true,
-      "problemMatcher": [],
-      "runOptions": {
-        "runOn": "folderOpen"
+      "problemMatcher": {
+        "owner": "jekyll",
+        "pattern": {
+          "regexp": "^$"
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^Configuration file:",
+          "endsPattern": "^.*Server address: http://127\\.0\\.0\\.1:4000/"
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
       }
+    },
+    {
+      "label": "Jekyll: Build",
+      "type": "process",
+      "command": "bundle",
+      "args": [
+        "exec",
+        "jekyll",
+        "build",
+        "--destination",
+        "production",
+        "--baseurl="
+      ],
+      "problemMatcher": {
+        "owner": "jekyll",
+        "pattern": {
+          "regexp": "^$"
+        }
+      }
+    },
+    {
+      "label": "Jekyll: Clean",
+      "type": "process",
+      "command": "bundle",
+      "args": ["exec", "jekyll", "clean", "--destination", "production"],
+      "problemMatcher": []
     }
   ]
 }
