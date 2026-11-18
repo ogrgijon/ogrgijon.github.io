@@ -1,4 +1,6 @@
 _site/
+production/
+.vscode/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
